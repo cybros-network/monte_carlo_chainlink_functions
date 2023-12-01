@@ -1,0 +1,20 @@
+{
+  "name": "monte-carlo-contracts",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "hardhat run scripts/deploy.js",
+    "test": "hardhat --network hardhat test"
+  },
+  "author": "jasl",
+  "license": "GPL-3.0-only",
+  "devDependencies": {
+    "@chainlink/contracts": "^0.8.0",
+    "@chainlink/functions-toolkit": "^0.2.7",
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "commander": "^11.1.0",
+    "dotenv": "^16.3.1",
+    "hardhat": "^2.19.1"
+  }
+}
